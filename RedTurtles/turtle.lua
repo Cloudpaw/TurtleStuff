@@ -6,4 +6,6 @@ local function LookRed()
      turtle.dig()
    else
      print("BEROP")
-end	 
+   end
+end	
+LookRed()

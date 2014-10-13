@@ -6,5 +6,5 @@ local function LookRed()
     rednet.broadcast("PlayerOut")
 	shell.run(host)
   end
- LookRed()
- end
+end 
+LookRed()

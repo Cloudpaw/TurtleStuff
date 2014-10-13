@@ -1,6 +1,6 @@
-redstone.getAnalogInput("left") = ri
+redstone.getAnalogInput = ri
 local function SendRed()
-  if ri = 0 then
+  if ri("left") = 0 then
      rednet.broadcast("PlayerOut")
      shell.run(host)
    else

@@ -1,10 +1,12 @@
+redstone.getAnalogInput("left") = ri
 local function LookRed()
-  if redstone.getAnalogInput("left") = 15 then
-   rednet.broadcast("PlayerIn")
-   shell.run(host)
+  if ri = 0 then
+     rednet.broadcast("PlayerOut")
+     shell.run(host)
    else
-    rednet.broadcast("PlayerOut")
-	shell.run(host)
+     rednet.broadcast("PlayerIn")
+     shell.run(host)
   end
 end 
+rednet.open("back")
 LookRed()

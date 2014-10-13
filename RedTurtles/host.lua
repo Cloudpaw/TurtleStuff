@@ -1,5 +1,5 @@
 redstone.getAnalogInput("left") = ri
-local function LookRed()
+local function SendRed()
   if ri = 0 then
      rednet.broadcast("PlayerOut")
      shell.run(host)
@@ -9,4 +9,4 @@ local function LookRed()
   end
 end 
 rednet.open("back")
-LookRed()
+SendRed()
